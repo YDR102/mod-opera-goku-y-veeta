@@ -1,0 +1,45 @@
+/* Tema Claro - Goku Super Saiyan */
+body {
+    background-color: hsl(45, 10%, 90%); /* Blanco roto / hueso para fondo */
+    color: hsl(0, 0%, 20%); /* Texto oscuro para contraste */
+}
+
+a, .link {
+    color: hsl(45, 90%, 60%); /* Amarillo/dorado para enlaces */
+}
+
+button {
+    background-color: hsl(45, 70%, 60%); /* Amarillo/dorado para botones */
+    color: white; /* Texto blanco para botones */
+}
+
+button:hover {
+    background-color: hsl(45, 80%, 50%); /* Efecto hover para botones */
+}
+
+.highlight {
+    color: hsl(50, 90%, 65%); /* Resaltado dorado claro */
+}
+
+/* Tema Oscuro - Goku Black */
+body {
+    background-color: #0A0A0A; /* Fondo negro */
+    color: #D9D9D9; /* Texto claro para contraste */
+}
+
+a, .link {
+    color: hsl(310, 75%, 50%); /* Magenta oscuro para los enlaces */
+}
+
+button {
+    background-color: hsl(310, 60%, 30%); /* Fondo oscuro para botones */
+    color: white; /* Texto blanco para botones */
+}
+
+button:hover {
+    background-color: hsl(310, 75%, 40%); /* Efecto hover para botones */
+}
+
+.highlight {
+    color: hsl(320, 80%, 65%); /* Resaltado en tono magenta claro */
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Goku y Vegeta",
+  "description": "Un mod visual inspirado en Vegeta Ultra Ego y Goku Ultra Instinto, con un fondo oscuro tétrico y acentos dorados y magenta en el tema claro.",
+  "developer": {
+    "name": "Dracgonz"
+  },
+  "icons": {
+    "512": "icon.jpg"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "payload": {
+      "background_music": ["music/Perfect_Cell.m4a"],
+      "browser_sounds": {
+        "CLICK": [],
+        "FEATURE_SWITCH_OFF": ["sound/feature_switch_off.mp3"],
+        "FEATURE_SWITCH_ON": ["sound/feature_switch_on.mp3"],
+        "HOVER": [],
+        "HOVER_UP": [],
+        "IMPORTANT_CLICK": ["sound/important_click.mp3"],
+        "LEVEL_UPGRADE": ["sound/level_upgrade.mp3"],
+        "LIMITER_OFF": ["sound/limiter_off.mp3"],
+        "LIMITER_ON": ["sound/limiter_on.mp3"],
+        "SWITCH_TOGGLE": ["sound/switch.mp3"],
+        "TAB_CLOSE": ["sound/close_tab.mp3"],
+        "TAB_INSERT": ["sound/new_tab.mp3"],
+        "TAB_SLASH": ["sound/tab_slash.mp3"]
+      },
+      "keyboard_sounds": {
+        "TYPING_BACKSPACE": [],
+        "TYPING_ENTER": [],
+        "TYPING_LETTER": [],
+        "TYPING_SPACE": []
+      },
+      "page_styles": [
+        {
+          "css": ["webmodding/opera.css"],
+          "matches": ["https://*.opera.com/*"]
+        }
+      ],
+      "shaders": {
+        "Goku Black Shader": {
+          "path": "shader/Goku Black.txt"
+        },
+        "Goku Super Saiyan Shader": {
+          "path": "shader/Goku.txt"
+        }
+      },
+      "theme": {
+        "dark": {
+          "gx_accent": { "h": 310, "s": 75, "l": 50 },
+          "gx_secondary_base": { "h": 250, "s": 20, "l": 18 },
+          "gx_toolbar_background": { "h": 0, "s": 0, "l": 0 },
+          "gx_sidebar_background": { "h": 240, "s": 20, "l": 5 },
+          "gx_tab_background": { "h": 0, "s": 0, "l": 0 },
+          "gx_tab_text_color": { "h": 0, "s": 0, "l": 85 },
+          "gx_button_background": { "h": 310, "s": 60, "l": 30 },
+          "gx_button_text_color": { "h": 0, "s": 0, "l": 95 },
+          "gx_panel_background": { "h": 240, "s": 30, "l": 10 },
+          "gx_text_color": { "h": 0, "s": 0, "l": 85 },
+          "gx_link_color": { "h": 320, "s": 70, "l": 55 },
+          "gx_highlight_color": { "h": 320, "s": 80, "l": 65 }
+        },
+        "light": {
+          "gx_accent": { "h": 45, "s": 90, "l": 60 },
+          "gx_secondary_base": { "h": 45, "s": 10, "l": 85 },
+          "gx_toolbar_background": { "h": 45, "s": 30, "l": 95 },
+          "gx_sidebar_background": { "h": 45, "s": 40, "l": 90 },
+          "gx_tab_background": { "h": 45, "s": 50, "l": 92 },
+          "gx_tab_text_color": { "h": 0, "s": 0, "l": 20 },
+          "gx_button_background": { "h": 45, "s": 70, "l": 60 },
+          "gx_button_text_color": { "h": 0, "s": 0, "l": 10 },
+          "gx_panel_background": { "h": 45, "s": 40, "l": 88 },
+          "gx_text_color": { "h": 0, "s": 0, "l": 10 },
+          "gx_link_color": { "h": 50, "s": 80, "l": 55 },
+          "gx_highlight_color": { "h": 50, "s": 90, "l": 65 }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "image": "wallpaper/dark.jpg",
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "image": "wallpaper/light.jpg",
+          "text_color": "#000000",
+          "text_shadow": "#E4D1A0"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}
